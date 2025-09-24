@@ -1,10 +1,10 @@
 import {Link} from "react-router-dom";
 
-function handler() {
+function handler(){
     window.scrollTo(0, 0)
 }
 
-function Footer() {
+function Footer(){
     return (
         <nav id="div-footer" style={{
             display: 'flex',
@@ -12,6 +12,7 @@ function Footer() {
             height: '75px',
             alignItems: 'center',
             justifyContent: 'center',
+            marginTop: '50px',
         }}>
             <Link to='/license' onClick={handler}>License</Link>
         </nav>

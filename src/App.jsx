@@ -1,15 +1,14 @@
 import Footer from './Footer';
-import Header from "./Header.jsx";
+import Header from "./Header";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./Home.jsx";
 import Portfolio from "./Portfolio.jsx";
 import Research from "./Research.jsx";
 import License from "./License.jsx";
 
-function App() {
+function App(){
     return (
         <BrowserRouter>
-            <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/portfolio" element={<Portfolio />} />

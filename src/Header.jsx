@@ -1,6 +1,8 @@
 import {Link} from "react-router-dom";
 
-function Header() {
+function Header({shadow=true}){
+    const setMargin = shadow ? '7px' : ''
+    const setShadow = shadow ? '0px 7px 10px rgba(131, 130, 130, 0.47)' : ''
     return (
         <nav id="div-header" style={{
             display: 'flex',
@@ -8,6 +10,8 @@ function Header() {
             height: '75px',
             alignItems: 'center',
             justifyContent: 'center',
+            marginBottom: setMargin,
+            boxShadow: setShadow
         }}>
             <Link to="/" style={{marginRight: '60px'}}>About</Link>
             <Link to="/portfolio" style={{marginRight: '60px'}}>Portfolio</Link>

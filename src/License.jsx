@@ -1,88 +1,93 @@
-function License() {
+import Header from "./Header";
+
+function License(){
     return (
-        <div style={{padding: '75px'}}>
-            <h1 style={{alignText: 'center', margin: '0px'}}>
-                License
-            </h1>
-            <div id="raleway-license">
-                <h2>
-                    Font: Raleway
-                </h2>
-                <p>Copyright 2010 The Raleway Project Authors (impallari@gmail.com), with Reserved Font Name "Raleway".
-                    This Font Software is licensed under the SIL Open Font License, Version 1.1 . This license is copied
-                    below, and is also available with a FAQ at: <a href='https://openfontlicense.org'>https://openfontlicense.org</a></p>
-                <p>SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007</p>
-                <h5>PREAMBLE</h5>
-                <p>The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font
-                    projects, to support the font creation efforts of academic and linguistic communities, and to
-                    provide a free and open framework in which fonts may be shared and improved in partnership with
-                    others.
+        <>
+            <Header />
+            <div style={{paddingLeft: '75px', paddingRight: '75px', paddingTop: '50px', paddingBottom: '20px'}}>
+                <h1 style={{alignText: 'center', margin: '0px', marginBottom: '50px'}}>
+                    License
+                </h1>
+                <div id="inter-license">
+                    <h2 style={{marginTop: '0px'}}>
+                        Font: Inter
+                    </h2>
+                    <p>Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter).
+                        This Font Software is licensed under the SIL Open Font License, Version 1.1 . This license is copied
+                        below, and is also available with a FAQ at: <a href='https://openfontlicense.org'>https://openfontlicense.org</a></p>
+                    <p>SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007</p>
+                    <h3>PREAMBLE</h3>
+                    <p>The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font
+                        projects, to support the font creation efforts of academic and linguistic communities, and to
+                        provide a free and open framework in which fonts may be shared and improved in partnership with
+                        others.
 
-                    The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as
-                    they are not sold by themselves. The fonts, including any derivative works, can be bundled,
-                    embedded, redistributed and/or sold with any software provided that any reserved names are not used
-                    by derivative works. The fonts and derivatives, however, cannot be released under any other type of
-                    license. The requirement for fonts to remain under this license does not apply to any document
-                    created using the fonts or their derivatives.</p>
-                <h5>DEFINITIONS</h5>
-                <p>"Font Software" refers to the set of files released by the Copyright Holder(s) under this license and
-                    clearly marked as such. This may include source files, build scripts and documentation.
+                        The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as
+                        they are not sold by themselves. The fonts, including any derivative works, can be bundled,
+                        embedded, redistributed and/or sold with any software provided that any reserved names are not used
+                        by derivative works. The fonts and derivatives, however, cannot be released under any other type of
+                        license. The requirement for fonts to remain under this license does not apply to any document
+                        created using the fonts or their derivatives.</p>
+                    <h3>DEFINITIONS</h3>
+                    <p>"Font Software" refers to the set of files released by the Copyright Holder(s) under this license and
+                        clearly marked as such. This may include source files, build scripts and documentation.
 
-                    "Reserved Font Name" refers to any names specified as such after the copyright statement(s).
+                        "Reserved Font Name" refers to any names specified as such after the copyright statement(s).
 
-                    "Original Version" refers to the collection of Font Software components as distributed by the
-                    Copyright Holder(s).
-                    "Modified Version" refers to any derivative made by adding to, deleting, or substituting -- in part
-                    or in whole -- any of the components of the Original Version, by changing formats or by porting the
-                    Font Software to a new environment.
+                        "Original Version" refers to the collection of Font Software components as distributed by the
+                        Copyright Holder(s).
+                        "Modified Version" refers to any derivative made by adding to, deleting, or substituting -- in part
+                        or in whole -- any of the components of the Original Version, by changing formats or by porting the
+                        Font Software to a new environment.
 
-                    "Author" refers to any designer, engineer, programmer, technical writer or other person who
-                    contributed to the Font Software.</p>
-                <h5>PERMISSIONS & CONDITIONS</h5>
-                <p>Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to
-                    use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the
-                    Font Software, subject to the following conditions:</p>
+                        "Author" refers to any designer, engineer, programmer, technical writer or other person who
+                        contributed to the Font Software.</p>
+                    <h3>PERMISSIONS & CONDITIONS</h3>
+                    <p>Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to
+                        use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the
+                        Font Software, subject to the following conditions:</p>
 
-                <p>1. Neither the Font Software nor any of its individual components, in Original or Modified Versions,
-                    may be sold by itself.</p>
+                    <p>1. Neither the Font Software nor any of its individual components, in Original or Modified Versions,
+                        may be sold by itself.</p>
 
-                <p>2. Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with
-                    any software, provided that each copy contains the above copyright notice and this license. These
-                    can be included either as stand-alone text files, human-readable headers or in the appropriate
-                    machine-readable metadata fields within text or binary files as long as those fields can be easily
-                    viewed by the user.</p>
+                    <p>2. Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with
+                        any software, provided that each copy contains the above copyright notice and this license. These
+                        can be included either as stand-alone text files, human-readable headers or in the appropriate
+                        machine-readable metadata fields within text or binary files as long as those fields can be easily
+                        viewed by the user.</p>
 
-                <p>3. No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written
-                    permission is granted by the corresponding Copyright Holder. This restriction only applies to the
-                    primary font name as presented to the users.</p>
+                    <p>3. No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written
+                        permission is granted by the corresponding Copyright Holder. This restriction only applies to the
+                        primary font name as presented to the users.</p>
 
-                <p>4. The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to
-                    promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the
-                    Copyright Holder(s) and the Author(s) or with their explicit written permission.</p>
+                    <p>4. The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to
+                        promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the
+                        Copyright Holder(s) and the Author(s) or with their explicit written permission.</p>
 
-                <p>5. The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under
-                    this license, and must not be distributed under any other license. The requirement for fonts to
-                    remain under this license does not apply to any document created using the Font Software.</p>
-                <h5>TERMINATION</h5>
-                <p>This license becomes null and void if any of the above conditions are not met.</p>
-                <h5>DISCLAIMER</h5>
-                <p>THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
-                    BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-                    NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT
-                    HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL,
-                    INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-                    ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE
-                    FONT SOFTWARE.</p>
-                <h2 style={{marginTop: '75px'}}>LinkedIn [In]® logo</h2>
-                <p>Copyright 2025 LinkedIn Corporation.</p>
-                <p>LinkedIn [in]® are registered trademarks or trademarks of LinkedIn Corporation and its affiliates in the United States and/or other countries.</p>
-                <p>Our use of this logo falls within the brand guidelines produced by LinkedIn: <a href='https://brand.linkedin.com/in-logo'>https://brand.linkedin.com/in-logo</a> and <a href='https://brand.linkedin.com/en-us'>https://brand.linkedin.com/en-us</a>.</p>
-                <h2 style={{marginTop: '75px'}}>GitHub Invertocat logo</h2>
-                <p>Copyright 2025 GitHub, Inc.</p>
-                <p>GITHUB®, the GITHUB® logo design, the INVERTOCAT logo design, OCTOCAT®, and the OCTOCAT® logo design are trademarks of GitHub, Inc., registered in the United States and other countries.</p>
-                <p>Our use of this logo falls within the brand guidelines produced by GitHub: <a href='https://github.com/logos'>https://github.com/logos</a> and <a href='https://brand.github.com/foundations/logo'>https://brand.github.com/foundations/logo</a>.</p>
+                    <p>5. The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under
+                        this license, and must not be distributed under any other license. The requirement for fonts to
+                        remain under this license does not apply to any document created using the Font Software.</p>
+                    <h5>TERMINATION</h5>
+                    <p>This license becomes null and void if any of the above conditions are not met.</p>
+                    <h3>DISCLAIMER</h3>
+                    <p>THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+                        BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+                        NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT
+                        HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL,
+                        INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+                        ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE
+                        FONT SOFTWARE.</p>
+                    <h2 style={{marginTop: '75px'}}>LinkedIn [In]® logo</h2>
+                    <p>Copyright 2025 LinkedIn Corporation.</p>
+                    <p>LinkedIn [in]® are registered trademarks or trademarks of LinkedIn Corporation and its affiliates in the United States and/or other countries.</p>
+                    <p>Our use of this logo falls within the brand guidelines produced by LinkedIn: <a href='https://brand.linkedin.com/in-logo'>https://brand.linkedin.com/in-logo</a> and <a href='https://brand.linkedin.com/en-us'>https://brand.linkedin.com/en-us</a>.</p>
+                    <h2 style={{marginTop: '75px'}}>GitHub Invertocat logo</h2>
+                    <p>Copyright 2025 GitHub, Inc.</p>
+                    <p>GITHUB®, the GITHUB® logo design, the INVERTOCAT logo design, OCTOCAT®, and the OCTOCAT® logo design are trademarks of GitHub, Inc., registered in the United States and other countries.</p>
+                    <p>Our use of this logo falls within the brand guidelines produced by GitHub: <a href='https://github.com/logos'>https://github.com/logos</a> and <a href='https://brand.github.com/foundations/logo'>https://brand.github.com/foundations/logo</a>.</p>
+                </div>
             </div>
-        </div>
+        </>
     )
 }
 
